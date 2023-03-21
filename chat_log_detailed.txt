@@ -1,0 +1,165 @@
+[*] Welcome to CLIChatGPT the CLI version of ChatGPT! Ask any questions to the bot! If you need help, type help
+X:\> Say this is a test.
+CLIChatGPT: {
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "\n\nThis is a test.",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1679362708,
+  "id": "chatcmpl-6wLFEO3CVE2YK9ShQKffItNlR6Hx8",
+  "model": "gpt-3.5-turbo-0301",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 6,
+    "prompt_tokens": 13,
+    "total_tokens": 19
+  }
+}
+(Tokens usage for this interaction: 19, Total Tokens used since the beginning: 19)
+X:\> Now translate "Hello, World." in Mandarin
+CLIChatGPT: {
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "\n\n\u4f60\u597d\uff0c\u4e16\u754c\u3002 (n\u01d0 h\u01ceo, sh\u00ec ji\u00e8.)",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1679362734,
+  "id": "chatcmpl-6wLFex1Cklj5IuDd0dISzcHFnmv6C",
+  "model": "gpt-3.5-turbo-0301",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 22,
+    "prompt_tokens": 16,
+    "total_tokens": 38
+  }
+}
+(Tokens usage for this interaction: 38, Total Tokens used since the beginning: 57)
+X:\> In Arabic ?
+CLIChatGPT: {
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "\n\n\u0628\u0627\u0644\u0644\u063a\u0629 \u0627\u0644\u0639\u0631\u0628\u064a\u0629\u061f",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1679362749,
+  "id": "chatcmpl-6wLFtOWkMOh9lWvqZquMZVPJCQ44n",
+  "model": "gpt-3.5-turbo-0301",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 13,
+    "prompt_tokens": 10,
+    "total_tokens": 23
+  }
+}
+(Tokens usage for this interaction: 23, Total Tokens used since the beginning: 80)
+X:\> Can you make (10 * 10) / 10 ?
+CLIChatGPT: {
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "\n\nYes, the answer is 10.",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1679362776,
+  "id": "chatcmpl-6wLGK60sAjIEXTEJgjQVM0vdb9qAr",
+  "model": "gpt-3.5-turbo-0301",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 9,
+    "prompt_tokens": 20,
+    "total_tokens": 29
+  }
+}
+(Tokens usage for this interaction: 29, Total Tokens used since the beginning: 109)
+X:\> How to get an input from user with Ruby ?
+CLIChatGPT: {
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "\n\nTo get an input from the user with Ruby, you can use the `gets` method. Here's an example:\n\n```\nputs \"What is your name?\"\nname = gets.chomp\nputs \"Hello, #{name}!\"\n```\n\nIn this example, the `puts` method is used to display a message asking for the user's name. The `gets.chomp` method is then used to get the user's input and remove any trailing whitespace. Finally, the user's name is displayed using string interpolation.",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1679363005,
+  "id": "chatcmpl-6wLK1VsA7ZXylWkNGJROhcYXelGiQ",
+  "model": "gpt-3.5-turbo-0301",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 104,
+    "prompt_tokens": 17,
+    "total_tokens": 121
+  }
+}
+(Tokens usage for this interaction: 121, Total Tokens used since the beginning: 230)
+X:\> Can you tell me what's the difference between the functions send, puts and write in the context of a socket in Ruby ?
+CLIChatGPT: {
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "\n\nIn the context of a socket in Ruby, the functions send, puts, and write are used to send data over the socket connection. However, there are some differences between these functions:\n\n1. send: The send function is a low-level function that allows you to send data over the socket connection. It takes a buffer of data as an argument and returns the number of bytes sent. You can also specify additional flags to control the behavior of the send operation.\n\n2. puts: The puts function is a higher-level function that is used to send a string of data over the socket connection. It automatically adds a newline character at the end of the string and flushes the output buffer. However, it does not provide as much control over the send operation as the send function.\n\n3. write: The write function is similar to the send function, but it is a higher-level function that is used to send a buffer of data over the socket connection. It returns the number of bytes written and also provides some control over the send operation, such as the ability to specify a timeout value.\n\nIn summary, the send function is the lowest-level function that provides the most control over the send operation, while the puts and write functions are higher-level functions that provide more convenience and ease of use.",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1679363110,
+  "id": "chatcmpl-6wLLiR0YZfla3OVhYpLrJYAsJN0J9",
+  "model": "gpt-3.5-turbo-0301",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 258,
+    "prompt_tokens": 32,
+    "total_tokens": 290
+  }
+}
+(Tokens usage for this interaction: 290, Total Tokens used since the beginning: 520)
+X:\> Thanks for all the help, have a great day !
+CLIChatGPT: {
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "\n\nYou're welcome! Have a great day too!",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1679363147,
+  "id": "chatcmpl-6wLMJWVpZk8sAVSB9I0v7m3O9hkAq",
+  "model": "gpt-3.5-turbo-0301",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 11,
+    "prompt_tokens": 18,
+    "total_tokens": 29
+  }
+}
+(Tokens usage for this interaction: 29, Total Tokens used since the beginning: 549)
+X:\> exit
+[+] Quitting the program...
+

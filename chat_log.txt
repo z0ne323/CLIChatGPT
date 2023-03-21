@@ -1,0 +1,25 @@
+[*] Welcome to CLIChatGPT the CLI version of ChatGPT! Ask any questions to the bot! If you need help, type help
+X:\> Say this is a test.
+CLIChatGPT: This is a test.
+(Tokens usage for this interaction: 19, Total Tokens used since the beginning: 19)
+X:\> Now translate "Hello, World." in Mandarin
+CLIChatGPT: 你好，世界。 (nǐ hǎo, shì jiè.)
+(Tokens usage for this interaction: 38, Total Tokens used since the beginning: 57)
+X:\> In Arabic ?
+CLIChatGPT: باللغة العربية؟
+(Tokens usage for this interaction: 23, Total Tokens used since the beginning: 80)
+X:\> Can you make (10 * 10) / 10 ?
+CLIChatGPT: Yes, the answer is 10.
+(Tokens usage for this interaction: 29, Total Tokens used since the beginning: 109)
+X:\> How to get an input from user with Ruby ?
+CLIChatGPT: To get an input from the user with Ruby, you can use the `gets` method. Here's an example:```puts "What is your name?"name = gets.chompputs "Hello, #{name}!"```In this example, the `puts` method is used to display a message asking for the user's name. The `gets.chomp` method is then used to get the user's input and remove any trailing whitespace. Finally, the user's name is displayed using string interpolation.
+(Tokens usage for this interaction: 121, Total Tokens used since the beginning: 230)
+X:\> Can you tell me what's the difference between the functions send, puts and write in the context of a socket in Ruby ?
+CLIChatGPT: In the context of a socket in Ruby, the functions send, puts, and write are used to send data over the socket connection. However, there are some differences between these functions:1. send: The send function is a low-level function that allows you to send data over the socket connection. It takes a buffer of data as an argument and returns the number of bytes sent. You can also specify additional flags to control the behavior of the send operation.2. puts: The puts function is a higher-level function that is used to send a string of data over the socket connection. It automatically adds a newline character at the end of the string and flushes the output buffer. However, it does not provide as much control over the send operation as the send function.3. write: The write function is similar to the send function, but it is a higher-level function that is used to send a buffer of data over the socket connection. It returns the number of bytes written and also provides some control over the send operation, such as the ability to specify a timeout value.In summary, the send function is the lowest-level function that provides the most control over the send operation, while the puts and write functions are higher-level functions that provide more convenience and ease of use.
+(Tokens usage for this interaction: 290, Total Tokens used since the beginning: 520)
+X:\> Thanks for all the help, have a great day !
+CLIChatGPT: You're welcome! Have a great day too!
+(Tokens usage for this interaction: 29, Total Tokens used since the beginning: 549)
+X:\> exit
+[+] Quitting the program...
+
